@@ -11,6 +11,7 @@ This project demonstrates the ability to build, evaluate, and communicate the re
 
 The notebook showcases both technical implementation (model training, evaluation, and visualization) and business translation (simplified findings and actionable insights), reflecting the real-world role of data analysts as both modelers and communicators.
 
+
 Objectives
 
 Develop predictive models using Decision Tree Classifiers with varying depths to explore the impact of model complexity on performance.
@@ -19,9 +20,11 @@ Evaluate performance through training and testing accuracy, confusion matrices, 
 
 Communicate insights effectively to both technical and non-technical audiences, balancing statistical rigor with clarity and accessibility.
 
+
 Dataset
 
 The dataset contains daily trading data for 503 companies in the S&P 500 from January through June 2025. Each record includes opening price, closing price, and trading volume for each trading day. The target variable (price_up) indicates whether a company’s stock price increased on June 30, 2025, compared to its opening price. Predictor features are derived from the two previous trading days (June 26 and June 27).
+
 
 Notebook Structure
 
@@ -37,6 +40,7 @@ Written for business executives and portfolio managers. Summarizes results in pl
 Section 4 – Reflection
 A two-paragraph reflection discussing the challenges of translating technical information for non-technical audiences and the importance of clear, adaptive communication.
 
+
 Key Takeaways
 
 A medium-depth decision tree (max_depth = 5) provided the best balance between interpretability and performance.
@@ -47,6 +51,7 @@ The model achieved approximately 65–70% accuracy, but this reflects pattern re
 
 Effective data communication depends on presenting insights that align with the audience’s level of technical understanding and decision-making needs.
 
+
 Technologies Used
 
 Python: pandas, numpy, scikit-learn, matplotlib
@@ -54,6 +59,7 @@ Python: pandas, numpy, scikit-learn, matplotlib
 Environment: Google Colab / Jupyter Notebook
 
 Version Control: GitHub
+
 
 How to Run the Notebook
 
